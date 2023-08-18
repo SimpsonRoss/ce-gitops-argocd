@@ -143,6 +143,8 @@ In this video, we'll show an example of how to make a change in git and how that
 
 [Video on seeing change reflected in ArgoCD](https://cloud-engineering-learners-media.s3.eu-west-2.amazonaws.com/argocd/argocd_state_sync.mp4)
 
+📷 - Remember to take a some screenshots for your solutions file
+
 ## Extension exercise
 
 ### Your own image and rolling out a change
