@@ -65,26 +65,8 @@ Run the following command to obtain your admin password, once **all** of your po
 
 **🗒️ NOTE:** If the password is printed with a percent (%) sign you can ignore this character. The percent just indicates the end of line
 
-**Unix**
-
 ```
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
-```
-
-**Windows**
-
-Windows users running Powershell will get an error when running the above command to get the ArgoCD password due to Powershell having to decode using base64 in a different way.
-
-To get around this, Windows users will need to run this command to get the string into a variable
-
-```
-$argocdpass = kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}"
-```
-
-Then just type the variable name to get the contents and add that into the command below to get your ArgoCD password:
-
-```
-[Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('**paste argocd pass output in here**'))
 ```
 
 Take note of this password, you will use it shortly
