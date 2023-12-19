@@ -125,33 +125,13 @@ In this video, we'll show an example of how to make a change in git and how that
 
 [Video on seeing change reflected in ArgoCD](https://cloud-engineering-learners-media.s3.eu-west-2.amazonaws.com/argocd/argocd_state_sync.mp4)
 
-📷 - Remember to take a some screenshots for your solutions file
+📷 - Remember to take some screenshots for your solutions file
 
 ## Extension exercise
 
 ### Your own image and rolling out a change
 
-You'll see there is a folder called **my-app** and the YAML files in there are empty.
-
-Try populating those files in order to deploy one of your own containers, such as the Java Spring boot app, to your cluster via ArgoCD.
-
-To help guide you, you will need:
-
-- Make sure you have pushed your image to your own container registry. You could do this with CircleCI if you have completed that task.
-
-- Make sure ArgoCD port forwarding is enabled, log in to ArgoCD and set up a **New App**
-
-- Point that project at the **my-app** directory
-
-## Submission process
-
-1. Fork this repository
-
-2. Remember to commit and push regularly to your repository
-
-3. Complete the SOLUTION.md
-
-4. Share link to your repository as indicated
+Create a directory and some .yaml files for your suite of smart home apps and get them deployed using GitOps and ArgoCD, with what you've learned so far.
 
 ## Further reading
 
